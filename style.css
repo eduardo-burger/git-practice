@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+ 
+
+.body-style {
+  font-family: Roboto;
+  size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto Condensed;
+}
+
+h1 {
+  font-size: 8em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+  font-size: 4em; 
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+
+h5 {
+  margin: 0 0;
+ font-size: 1.2em;
+ line-height: 1em;
+}
+
+.dark-background {
+  background-color: rgb(25,33,41);
+  color: white;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.header {
+  position: relative;
+  padding: 5px;
+  background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.quote {
+  position: absolute;
+  left: 5%;
+  bottom: 100px;
+  font-size: 2.5em;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.text {
+  margin: 20px 0 20px;
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.link-btn a {
+  background-color: rgb(67, 163, 230);
+  color: white;
+  font-family: Roboto Condensed;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+}
+
+.service-box {
+  padding: 2px;
+  border-radius: 20px; 
+  box-sizing: 10px;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin: 25px 5% 0 5%;
+  border: 2px solid #eee;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 10%;
+}
+
+.service-box img {
+  width: 125px;
+}
+
+#team .section-text {
+  font-size: 1.9em;
+  text-align: center;
+}
+
+#team .member-name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#team img {
+  width: 250px;
+  height: 180px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.9em;
+}
+
+.address a {
+  font-style: normal;
+  font-size: 0.8em;
+  margin: 0 0 30px;
+}
+
+.footer a {
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px 100px 40px 100px;
+  margin: 0 0 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 20px 100px 20px 100px;
+}
+
+.nav-bar {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-bar li {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-bar-2 li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 5px 0;
+}
+
+#team {
+  padding: 75px 0;
+  margin: 0 auto;
+}
+
+#team p {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.hr {
+  margin: 20px auto 30px auto;
+  width: 40%;
+}
+
+.schedule-table {
+  margin: 0 auto 40px auto;
+  font-size: 1.5em;
+}
+
+.schedule-table th, td {
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 ;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+#structure .first-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#structure > div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.map-frame {
+  height: 375px;
+  width: 60%;
+}
